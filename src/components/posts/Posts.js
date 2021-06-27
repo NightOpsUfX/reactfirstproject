@@ -4,7 +4,7 @@ import Post from '../post/Post'
 
 export default function Posts({items}) {
     return (
-        <div>
+        <div className={'userPostsWrapper'}>
             {
                 items.map((value) => <Post item={value}/>)
             }

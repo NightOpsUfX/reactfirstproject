@@ -35,9 +35,11 @@ export default function User ({item}) {
 
     }, [])
     return (
-        <div>
-            <b>{item.name}</b>
+        <div className={'userItem userItem' + '-' + item.id}>
+            <h2>{item.name}</h2>
             <Posts items={posts}/>
+
+
         </div>
     )
 }

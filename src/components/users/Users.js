@@ -45,7 +45,7 @@ export default function Users () {
     }, [])
 
     return (
-        <div>
+        <div className={'mainContentWrapper'}>
             {
                 users.map(value => <User item={value}/>)
             }
