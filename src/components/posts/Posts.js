@@ -1,3 +1,5 @@
+
+// All Posts
 import Post from '../post/Post'
 
 export default function Posts({items}) {

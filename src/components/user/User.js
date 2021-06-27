@@ -14,6 +14,9 @@
 //     )
 // }
 ///////////////////////////////////
+//////////////////////////////////
+
+// Single User
 
 import {useEffect, useState} from "react";
 import Posts from "../posts/Posts";

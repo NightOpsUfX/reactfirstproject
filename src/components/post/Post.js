@@ -1,3 +1,6 @@
+
+// Single Post
+
 export default function Post ({item}) {
     return (
         <div>
